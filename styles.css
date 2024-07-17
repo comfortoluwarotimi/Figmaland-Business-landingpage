@@ -133,7 +133,7 @@ header div.btn,
 /* Header */
 
 header {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./background\ content.png);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/background\ content.png);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -145,11 +145,6 @@ header {
     flex-direction: column;
     justify-content: center;
 }
-
-/* .clip-path {
-    -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 91%, 75% 100%, 25% 100%, 0 91%, 0 0);
-    clip-path: polygon(50% 0%, 100% 0, 100% 91%, 75% 100%, 25% 100%, 0 91%, 0 0);
-} */
 
 .overflow {
     overflow: hidden;
@@ -184,7 +179,7 @@ header p {
 }
 
 nav {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     transition: 0.6s;
